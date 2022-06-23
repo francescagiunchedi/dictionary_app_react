@@ -1,0 +1,45 @@
+:root {
+  --bg-dec-height: 118px;
+  --bg-dec-width: 390px;
+}
+.body-bg {
+  position: relative;
+}
+.body-bg .bg-decoration {
+  position: absolute;
+  height: var(--bg-dec-height);
+  width: var(--bg-dec-width);
+  border-radius: 100000px;
+  background-color: hsl(
+    var(--secondary-color-H),
+    var(--secondary-color-S),
+    var(--secondary-color-L)
+  );
+  opacity: 0.2;
+  z-index: -1;
+}
+.big {
+  left: -96px;
+  top: -39px;
+  --bg-dec-height: 352px;
+  --bg-dec-width: 872px;
+}
+.small {
+  left: 1076px;
+  top: 93px;
+  --bg-dec-height: 118px;
+  --bg-dec-width: 390px;
+}
+.medium {
+  --bg-dec-height: 240px;
+  --bg-dec-width: 665px;
+  left: -392px;
+  top: 526px;
+  opacity: 0.1;
+}
+
+.bottom {
+  opacity: 0.1;
+  left: 898px;
+  top: 595px;
+}
