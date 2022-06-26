@@ -1,0 +1,38 @@
+:root {
+  --primary-color-H: 220;
+  --primary-color-S: 18%;
+  --primary-color-L: 30%;
+  --primary-color-darker: calc(var(--primary-color-L) - 10%);
+  --secondary-color-H: 37;
+  --secondary-color-S: 64%;
+  --secondary-color-L: 85%;
+  --secondary-color-darker: calc(var(--secondary-color-L) - 10%);
+}
+.dictionary {
+  text-align: center;
+}
+input[type="search"] {
+  min-width: 300px;
+  padding: 2px 0;
+  border-radius: 100000px;
+  outline-offset: 1px;
+  box-shadow: none;
+  border-style: solid;
+  border-color: hsl(
+    var(--primary-color-H),
+    var(--primary-color-S),
+    var(--primary-color-L)
+  );
+  text-indent: 11px;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  position: relative;
+  right: 20px;
+}
+.search-bar {
+  outline-color: hsl(
+    var(--secondary-color-H),
+    var(--secondary-color-S),
+    var(--secondary-color-L)
+  );
+}
