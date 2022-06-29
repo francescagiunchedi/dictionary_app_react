@@ -1,5 +1,4 @@
 import "./App.css";
-import Bgdecoration from "./Bgdecoration";
 import Dictionary from "./Dictionary";
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
       <footer>
         <p> Coded by Francesca Giunchedi </p>
       </footer>
-      <Bgdecoration />
     </div>
   );
 }

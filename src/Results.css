@@ -1,0 +1,19 @@
+.Results {
+  padding: 0 1.5em;
+  padding-top: 4em;
+  min-width: 300px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.Results h2 {
+  font-family: "Lora", serif;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  color: hsl(
+    var(--primary-color-H),
+    var(--primary-color-S),
+    var(--primary-color-L)
+  );
+}

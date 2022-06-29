@@ -3,6 +3,8 @@
   --bg-dec-width: 390px;
 }
 .body-bg {
+  height: 100vh;
+  width: 100vw;
   position: relative;
 }
 .body-bg .bg-decoration {

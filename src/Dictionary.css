@@ -9,6 +9,7 @@
   --secondary-color-darker: calc(var(--secondary-color-L) - 10%);
 }
 .dictionary {
+  margin: 0 auto;
   text-align: center;
 }
 input[type="search"] {

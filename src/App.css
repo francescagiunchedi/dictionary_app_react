@@ -19,6 +19,9 @@ footer p {
   margin: 0;
   padding: 0;
 }
+.App {
+  padding: 0 1.5em;
+}
 
 .App h1 {
   padding-top: 121px;
