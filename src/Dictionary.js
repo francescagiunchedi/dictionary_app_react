@@ -5,14 +5,15 @@ import axios from "axios";
 
 export default function Dictionary() {
   let [keyword, setkeyword] = useState("");
+
   function handleResponse(repsponse) {
-    console.log(repsponse.data);
+    console.log(repsponse.data[0]);
   }
   function search(event) {
     event.preventDefault();
     alert(`Searchin for ${keyword}`);
 
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/hello`;
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
   }
   function handlekeyword(event) {
