@@ -29,9 +29,9 @@
 .Meaning .example {
   margin: 0;
   padding: 0;
+  padding-left: 1rem;
   padding-bottom: 1em;
-  padding-left: 1.3em;
   font-style: italic;
-  font-weight: 200;
-  opacity: 0.9;
+  font-weight: 100;
+  color: hsl(0, 0%, 40%);
 }
