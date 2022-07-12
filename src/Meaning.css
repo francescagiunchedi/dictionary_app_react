@@ -48,4 +48,6 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  display: inline-block;
+  padding-right: 1rem;
 }

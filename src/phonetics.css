@@ -1,0 +1,44 @@
+.phonetics {
+  margin: 1.3em 0;
+}
+.phonetics a,
+.phonetics a:active {
+  padding: 0;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: hsl(
+    var(--primary-color-H),
+    var(--primary-color-S),
+    var(--primary-color-L)
+  );
+  padding: 0.5em 1.5em;
+  border-radius: 1000000px;
+  color: hsl(
+    var(--secondary-color-H),
+    var(--secondary-color-S),
+    var(--secondary-color-L)
+  );
+}
+
+.phonetics a:hover {
+  padding: 0;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: hsl(
+    var(--secondary-color-H),
+    var(--secondary-color-S),
+    var(--secondary-color-L)
+  );
+  padding: 0.5em 1.5em;
+  border-radius: 1000000px;
+  color: hsl(
+    var(--primary-color-H),
+    var(--primary-color-S),
+    var(--primary-color-L)
+  );
+}
+
+.phonetics span {
+  padding: 0 0.5em;
+  font-size: 18px;
+}

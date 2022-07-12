@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1 className="text-center">Dictionary</h1>
       <main>
-        <Dictionary />
+        <Dictionary defaultkey="welcome" />
       </main>
       <footer>
         <p> Coded by Francesca Giunchedi </p>

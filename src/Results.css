@@ -27,11 +27,6 @@
   margin-top: 7px;
 }
 
-.result-word h2,
-.phonetics a {
-  padding-right: 0.5rem;
-}
-
-.phonetics {
+.result-word h2 {
   display: flex;
 }
