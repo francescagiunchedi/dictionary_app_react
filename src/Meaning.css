@@ -1,6 +1,11 @@
 .Meaning {
   padding-left: 1rem;
 }
+@media (max-width: 540px) {
+  .Meaning {
+    padding-left: 0;
+  }
+}
 .Meaning h5 {
   font-family: "Lora", serif;
   font-size: 22px;
@@ -18,6 +23,11 @@
   padding-left: 1.5em;
   font-family: "ABeeZee", sans-serif;
   font-size: 18px;
+}
+@media (max-width: 540px) {
+  .Meaning .definition-results {
+    padding-left: 0;
+  }
 }
 
 .Meaning .definition-results p {
